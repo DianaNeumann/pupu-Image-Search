@@ -1,0 +1,28 @@
+{
+    "name": "pupu Image Search!!",
+    "description": "By Uvuvwevwevwe Onyetenyevwe Ugwemuhwem Osas",
+    "version": "273.1",
+    "manifest_version": 2,
+
+    "background": {
+        "page": "main.html" 
+    },
+
+    "permissions": [
+       "storage", "contextMenus"
+    ],
+
+    "icons": {
+    "16": "/images/16.png",
+    "128": "/images/128.png"
+  },
+
+    "browser_action": {
+       "default_name": "pupu Image Search!!",
+       "default_icon": "/images/16.png",
+       "default_popup": "popup.html"
+    },
+
+    "options_page": "options.html"
+
+}
